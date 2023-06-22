@@ -1,0 +1,11 @@
+
+.form-input label {
+    width: 100%;
+    margin: .5rem;
+}
+
+.form-input input, .form-input select {
+    padding: .5rem;
+    margin: .5rem;
+    width: 100%;
+}

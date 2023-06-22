@@ -1,0 +1,37 @@
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: rgb(36, 125, 180);
+}
+td, th {
+  padding: .5rem;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(odd) 
+{
+  background-color: #989898;
+}
+
+tr:nth-child(even) 
+{
+  background-color: #666666;
+}
+
+.table_actions {
+  display: flex;
+  gap: 1rem;
+}

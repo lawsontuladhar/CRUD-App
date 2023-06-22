@@ -1,0 +1,14 @@
+.homeContainer {
+  display: grid;
+  gap: 2rem;
+}
+
+.homeHeader {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile{
+  margin-top: 20px;
+  
+}

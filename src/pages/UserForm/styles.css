@@ -1,0 +1,9 @@
+.card-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button[type="submit"] {
+    margin: .5rem;
+}

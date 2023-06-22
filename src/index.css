@@ -53,9 +53,46 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: rgb(36, 125, 180);
+}
+td, th {
+  padding: .5rem;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(odd) 
+{
+  background-color: #989898;
+}
+
+tr:nth-child(even) 
+{
+  background-color: #666666;
+}
+
+.table_actions {
+  display: flex;
+  gap: 1rem;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #16232e;
     background-color: #ffffff;
   }
   a:hover {
@@ -64,4 +101,16 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+  tr:nth-child(odd) 
+{
+  background-color: #c1c1c1;
 }
+
+tr:nth-child(even) 
+{
+  background-color: #a9a9a9;
+}
+
+}
+
